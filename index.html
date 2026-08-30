@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtue Partners Limited | Accounting Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for Editorial Headings and UI Text -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVIGATION HEADER -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-v">V</span>
+                <div class="logo-text">
+                    <span class="brand-name">VIRTUE</span>
+                    <span class="brand-sub">PARTNERS LIMITED</span>
+                </div>
+            </div>
+            <nav class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#services">Services</a>
+                <a href="#about">About Us</a>
+                <a href="#why-us">Why Us</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="btn btn-navy open-modal-btn">Get in Touch</button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Accounting solutions you can <span class="gold-text">count on.</span></h1>
+                <p>Trusted expertise. Clear advice. Better decisions. We help businesses and individuals achieve financial clarity and long-term success.</p>
+                <a href="#services" class="btn btn-dark-navy">Our Services &rarr;</a>
+            </div>
+            <div class="hero-image-container">
+                <!-- Replace with your actual hero image link -->
+                <img src="https://unsplash.com" alt="Accounting Team Working">
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services">
+        <div class="section-tag">OUR SERVICES</div>
+        <h2>How we can help</h2>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="icon gold-text">📊</div>
+                <h3>Accountancy</h3>
+                <p>Comprehensive accounting services tailored to your business needs.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon gold-text">📄</div>
+                <h3>Taxation</h3>
+                <p>Expert tax planning and compliance to minimise liabilities.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon gold-text">📈</div>
+                <h3>Business Advisory</h3>
+                <p>Strategic advice to help you grow, improve and achieve your goals.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon gold-text">👥</div>
+                <h3>Payroll Services</h3>
+                <p>Accurate, timely and compliant payroll management.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST & ACCREDITATIONS -->
+    <section id="why-us" class="trust-section">
+        <div class="trust-grid">
+            <div class="trust-text">
+                <div class="section-tag">WHY CLIENTS TRUST US</div>
+                <h2>Experience. Expertise. Integrity.</h2>
+                <p>We are committed to building long-term relationships through professionalism, transparency and results.</p>
+            </div>
+            <div class="badge-card">
+                <div class="badge-logo cima-logo">CIMA</div>
+                <p class="badge-title">Proud Member</p>
+                <p class="badge-desc">The Chartered Institute of Management Accountants</p>
+            </div>
+            <div class="badge-card">
+                <div class="badge-logo aat-logo">aat</div>
+                <p class="badge-title">Proud Member</p>
+                <p class="badge-desc">The Association of Accounting Technicians</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOTTOM CTA BANNER -->
+    <section class="cta-banner">
+        <div class="cta-container">
+            <div class="cta-left">
+                <div class="phone-icon">📞</div>
+                <div>
+                    <h2>Let's work together</h2>
+                    <p>Get in touch today for a no-obligation conversation.</p>
+                </div>
+            </div>
+            <button class="btn btn-gold open-modal-btn">Contact Us &rarr;</button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="logo invert">
+                    <span class="logo-v">V</span>
+                    <div class="logo-text">
+                        <span class="brand-name">VIRTUE</span>
+                        <span class="brand-sub">PARTNERS LIMITED</span>
+                    </div>
+                </div>
+                <p>Providing trusted accountancy and business advisory services with integrity, clarity and care.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#about">About Us</a>
+                <a href="#why-us">Why Us</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Get in Touch</h3>
+                <p>📧 hello@virtuepartners.co.uk</p>
+                <p>📞 01753 123456</p>
+                <p>🕒 Mon - Fri: 9:00am - 5:00pm</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Virtue Partners Limited. All rights reserved.</p>
+            <p>Registration: 16072778</p>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE CONTACT MODAL DROPDOWN -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Get In Touch</h2>
+            <p>Fill out the form below and an advisor will contact you shortly.</p>
+            <form id="leadForm">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" required placeholder="john@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="service-select">Required Service</label>
+                    <select id="service-select" required>
+                        <option value="" disabled selected>Select a service...</option>
+                        <option value="accountancy">Accountancy Help</option>
+                        <option value="taxation">Tax Planning & Compliance</option>
+                        <option value="advisory">Business Growth Advisory</option>
+                        <option value="payroll">Payroll Management</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark-navy submit-btn">Submit Request</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
