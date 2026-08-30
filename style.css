@@ -1,0 +1,26 @@
+/* FORM SUBMISSION STATUS FEEDBACK */
+.form-status {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    display: none;
+}
+.form-status.sending {
+    display: block;
+    background-color: #E2E8F0;
+    color: #475569;
+}
+.form-status.success {
+    display: block;
+    background-color: #DCFCE7;
+    color: #15803D;
+    border: 1px solid #BBF7D0;
+}
+.form-status.error {
+    display: block;
+    background-color: #FEE2E2;
+    color: #B91C1C;
+    border: 1px solid #FECACA;
+}
